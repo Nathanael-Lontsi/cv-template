@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #dcdcdc; 
+}
+
+.container {
+  position: relative;
+  width: 300%;
+  max-width: 1500px;
+  min-height: 1000px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 15px 20px 15px 20px;
+}
+
+.container .left-side {
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.container .right-side {
+  position: relative;
+  padding: 0;
+  background-color: #fff;
+}
+
+.profile {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.Jane-Doe {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  font-size: 30px;
+  font-weight: 400;
+}
