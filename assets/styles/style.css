@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #dcdcdc; 
+  background: #dcdcdc;
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin: 15px 20px 15px 20px;
+  margin: 15px 20px;
 }
 
 .container .left-side {
